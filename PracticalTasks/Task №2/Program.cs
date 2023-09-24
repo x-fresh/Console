@@ -8,8 +8,14 @@ int num1 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите второе число: ");
 int num2 = Convert.ToInt32(Console.ReadLine());
 
-if (num1 > num2);
-
-System.Console.WriteLine(«Большее число: » + a + «, меньшее число: » + b);
-
-else System.Console.WriteLine($»Большее число: {a}, меньшее число: {b}»);
+if(num1 > num2)
+{
+    max = num1;
+    min = num2;
+}
+else
+{
+    max = num2;
+    min = num1;
+}
+Console.WriteLine("max = " + max + " и " + "min = " + min);
