@@ -3,7 +3,8 @@
 Console.Write("Введите N: ");
 int anyNum = Convert.ToInt32(Console.ReadLine());
 string anyNumText = Convert.ToString(anyNum);
-if (anyNumText.Length > 2){
+if (anyNumText.Length > 2)
+{
   Console.WriteLine("третья цифра -> " + anyNumText[2]);
 }
 else {
